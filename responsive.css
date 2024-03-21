@@ -1,0 +1,81 @@
+@media screen and (max-width: 932px) {
+    body {
+        margin: 0;
+        padding: 15px;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #container-port {
+        display: flex;
+        padding: 25px 100px;
+        justify-content: space-between;
+    }
+    #contactForm button {
+        padding: 13px 20px;
+        margin-top: -20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width: 648px) {
+    body {
+        margin: 0;
+        padding: 15px;
+    }
+    #menu {
+        display: none;
+    }
+    #contactForm button {
+        width: 0;
+        padding: 15px 60px 15px 15px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #foto {
+        display: flex;
+        align-items: center;
+    }
+    #headerImg img{
+        width: 80px;
+    }
+    #clients {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+    .headerLogo {
+        display: flex;
+    }
+    .headerLogo img {
+        width: 60px;
+    }
+    #contactImg {
+        display: flex;
+        align-items: center;
+    }
+
+    #portfolios {
+        display: flex;
+        width: 100%;
+    }
+
+    .PortfolioImg{
+        display: flex;
+        margin-right: 5px;
+    }
+
+    .PortfolioImg img {
+        width: 100%;
+        height: 100px;
+    }
+}
